@@ -92,7 +92,7 @@ interface User {
   department?: string
 }
 
-const API_URL = "/api"
+const API_URL = "https://erpedupulse-backend.onrender.com"
 
 export default function ERPDashboard() {
   const [isAuthenticated, setIsAuthenticated] = useState(false)
