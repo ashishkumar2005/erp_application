@@ -1,5 +1,22 @@
 "use client"
 
+
+
+
+import React from "react"
+
+export default function HomePage() {
+  return (
+    <main style={{ padding: "2rem", fontFamily: "sans-serif" }}>
+      <h1>EduPulse ERP</h1>
+      <p>Frontend is deployed successfully.</p>
+      <p>Backend connection is ready.</p>
+    </main>
+  )
+}
+
+
+
 import React, { useState, useEffect, useCallback } from "react"
 import { 
   Users, 
